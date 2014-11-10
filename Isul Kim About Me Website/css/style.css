@@ -1,0 +1,198 @@
+body 
+	{
+		background: black;
+		/*background-size: cover;*/
+		max-width:100%;
+	}
+h1 {
+		font-family: 'Pacifico', sans-serif;
+		text-align: left;
+		font-size: 120px;
+		font-weight:normal;
+		color:#ffcc00;
+		line-height: 90%;
+		margin: -5px 0 0;
+	}
+h2 {
+		font-family: 'Pacifico', sans-serif;
+		text-align: left;
+		font-size: 50px;
+		font-weight:normal;
+		color:#ffcc00;
+		line-height: 120%;
+	}
+
+@media (max-width:500px) {
+	h1 {
+		font-size: 80px;
+	}
+	h2 {
+		font-size: 40px;
+	}
+}
+p 	
+	{
+		color:#ffcc00;
+		font-size: 20px;
+	}					
+p.Caption
+	{
+		color:#ffcc00;
+		font-size: 25px;		
+	}		
+ul {
+		list-style-type: none;
+	}	
+li
+	{
+		display:inline;
+	}	
+a 	{
+		text-decoration:none;
+	}		
+nav a
+	{
+		text-decoration:none;
+		font-size: 24px;
+		color:#ffcc00;
+		width:60px;		
+		padding-left: 20px;
+	}
+nav a:hover
+	{
+		color:#ff9933;	
+	}	
+input {
+	border: 0;
+	padding: 10px;
+	font-size: 14px;
+}
+input[type="submit"] {
+	background: #003333;
+	color:white;
+}
+#LeftDiv
+	{
+		float: left;
+		max-width: 40%;
+ 		padding-left:6%;
+ 		padding-right:4%;	
+	 	margin-top: 18%;	
+ 		/*background-color: green;	 			*/
+	}	
+#MyIntroDiv
+ 	{
+		float: left;
+		max-width: auto;
+ 		padding-left:6%;
+ 		padding-right:4%;
+ 		/*background-color: green;*/
+	}
+#PicCaption
+	{
+		float: left;
+		max-width: auto;
+		padding-left:6%;
+ 		padding-right:4%;	
+ 		margin-top: 1%;
+ 		/*background-color: red;		*/
+	}
+#RightDiv
+	{
+ 		float: right;
+ 		max-width:44%;
+ 		padding-right:6%;
+ 		margin-top:1%; 	
+ 	 	/*background-color:red;		*/
+	}
+
+#MenuDiv
+	{
+ 		float: right;
+ 		max-width:auto;
+ 		padding-right:6%;
+ 		text-align:right;	
+ 		 /*background-color:green;	*/
+	}
+#MyPicDiv
+	{
+ 		float:right;
+ 		max-width:auto;
+ 		margin-top:4%;
+ 		/*background-color:green;		*/
+	}
+#MyPic
+ 	{
+		float:center;
+		max-width: 90%;	
+		border: 20px solid #ffffff;
+		/*background-color: red;		*/
+	}
+#ContactLeftDiv
+	{
+		float: left;
+ 		max-width: 600px;
+  		margin-top: 10%;	
+  		margin-left: 5%;		
+ 		text-align: left;	
+ 		/*background-color: red;		*/
+	}		
+#ContactLogoDiv
+	{
+		float: left;
+ 		max-width:100%;
+  		margin-left: 5%;		
+ 		text-align: left;	
+ 		/*background-color: purple;		*/
+	}	
+#ContactInfoDiv
+	{
+		float: left;
+ 		max-width:100%;
+  		margin-left: 5%;		
+		margin-top: 4%;  		
+ 		text-align: left;	
+ 		/*background-color: yellow;		*/
+	}		
+#MessageDiv
+	{
+		float: left;
+		max-width:100%;
+ 		margin-top: 4%;	
+ 		margin-left: 5%;
+ 		text-align: left;
+ 		/*background-color: blue;				*/
+	}	
+#AboutLogoDiv
+	{
+		float: left;
+ 		max-width:90%;
+  		margin-top: 10%;	
+  		margin-left: 5%;		
+ 		text-align: left;	
+ 		/*background-color: red;				*/
+	}
+#MyAboutTextDiv
+	{
+		float: left;
+ 		max-width:90%;	
+  		margin-left: 5%;
+  		margin-top: 2%;			
+ 		text-align: left;	
+ 		/*background-color: red;				*/
+	}	
+ .rotate img 
+ 	{
+    -moz-transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    transition: all s ease-in-out;
+	}
+.rotate img:hover {
+    -moz-transform: rotate(10deg);
+    -webkit-transform: rotate(10deg);
+    -o-transform: rotate(10deg);
+    -ms-transform: rotate(10deg);
+    transform: rotate(10deg);
+	}
